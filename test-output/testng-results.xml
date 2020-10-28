@@ -1,17 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3261" started-at="2020-10-27T09:29:45Z" finished-at="2020-10-27T09:29:48Z">
+  <suite name="Default suite" duration-ms="13497" started-at="2020-10-28T15:02:10Z" finished-at="2020-10-28T15:02:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3261" started-at="2020-10-27T09:29:45Z" finished-at="2020-10-27T09:29:48Z">
-      <class name="com.qa.RestAssured_APIMethods.PostCall_CreateUserArrayList">
-        <test-method status="PASS" signature="CreateUser_withList()[pri:5, instance:com.qa.RestAssured_APIMethods.PostCall_CreateUserArrayList@105fece7]" name="CreateUser_withList" duration-ms="3241" started-at="2020-10-27T09:29:45Z" finished-at="2020-10-27T09:29:48Z">
+    <test name="Default test" duration-ms="13497" started-at="2020-10-28T15:02:10Z" finished-at="2020-10-28T15:02:23Z">
+      <class name="com.qa.RestAssured.UserAPI.UserAPI">
+        <test-method status="PASS" signature="UserAPIPre_requisit()[pri:0, instance:com.qa.RestAssured.UserAPI.UserAPI@55ca8de8]" name="UserAPIPre_requisit" is-config="true" duration-ms="3609" started-at="2020-10-28T15:02:10Z" finished-at="2020-10-28T15:02:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateUser_withList -->
-      </class> <!-- com.qa.RestAssured_APIMethods.PostCall_CreateUserArrayList -->
+        </test-method> <!-- UserAPIPre_requisit -->
+        <test-method status="PASS" signature="GetUser()[pri:2, instance:com.qa.RestAssured.UserAPI.UserAPI@55ca8de8]" name="GetUser" duration-ms="1502" started-at="2020-10-28T15:02:14Z" finished-at="2020-10-28T15:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUser -->
+        <test-method status="PASS" signature="Get_TheUserSession()[pri:3, instance:com.qa.RestAssured.UserAPI.UserAPI@55ca8de8]" name="Get_TheUserSession" duration-ms="1236" started-at="2020-10-28T15:02:15Z" finished-at="2020-10-28T15:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_TheUserSession -->
+        <test-method status="PASS" signature="LoggOff_session_User()[pri:4, instance:com.qa.RestAssured.UserAPI.UserAPI@55ca8de8]" name="LoggOff_session_User" duration-ms="1164" started-at="2020-10-28T15:02:16Z" finished-at="2020-10-28T15:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoggOff_session_User -->
+        <test-method status="PASS" signature="Get_withList()[pri:5, instance:com.qa.RestAssured.UserAPI.UserAPI@55ca8de8]" name="Get_withList" duration-ms="1186" started-at="2020-10-28T15:02:18Z" finished-at="2020-10-28T15:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_withList -->
+        <test-method status="PASS" signature="Delete_User()[pri:6, instance:com.qa.RestAssured.UserAPI.UserAPI@55ca8de8]" name="Delete_User" duration-ms="1163" started-at="2020-10-28T15:02:19Z" finished-at="2020-10-28T15:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_User -->
+        <test-method status="PASS" signature="Put_ApiCall()[pri:7, instance:com.qa.RestAssured.UserAPI.UserAPI@55ca8de8]" name="Put_ApiCall" duration-ms="1157" started-at="2020-10-28T15:02:20Z" finished-at="2020-10-28T15:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Put_ApiCall -->
+        <test-method status="PASS" signature="UserApi_AfterTest()[pri:0, instance:com.qa.RestAssured.UserAPI.UserAPI@55ca8de8]" name="UserApi_AfterTest" is-config="true" duration-ms="2458" started-at="2020-10-28T15:02:21Z" finished-at="2020-10-28T15:02:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserApi_AfterTest -->
+      </class> <!-- com.qa.RestAssured.UserAPI.UserAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

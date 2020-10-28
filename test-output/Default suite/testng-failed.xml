@@ -3,11 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.RestAssured_APIMethods.DeleCall_DeleteUser">
+      <class name="com.qa.RestAssured.UserAPI.UserAPI">
         <methods>
-          <include name="Delete_TheUserSession"/>
+          <include name="Get_withList"/>
+          <include name="UserAPIPre_requisit"/>
+          <include name="Delete_User"/>
+          <include name="Get_TheUserSession"/>
+          <include name="UserApi_AfterTest"/>
+          <include name="Put_ApiCall"/>
+          <include name="LoggOff_session_User"/>
+          <include name="GetUser"/>
         </methods>
-      </class> <!-- com.qa.RestAssured_APIMethods.DeleCall_DeleteUser -->
+      </class> <!-- com.qa.RestAssured.UserAPI.UserAPI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
