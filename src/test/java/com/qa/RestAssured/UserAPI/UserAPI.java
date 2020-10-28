@@ -24,7 +24,7 @@ public class UserAPI
 	@BeforeTest
 	public void UserAPIPre_requisit()
 	{
-		File fileobject=new File("D:\\eclipse\\API_InterviewCoding\\src\\testResources\\CreateUser.json");
+		File fileobject=new File("./src/testResources/CreateUser.json");
 		RestAssured.baseURI="https://petstore.swagger.io";
        	RequestSpecification request;
     	request=RestAssured.given().log().all().contentType("application/json").log().all().body(fileobject).log().all();
@@ -170,7 +170,7 @@ public class UserAPI
 	public void Put_ApiCall()
     {
     	SoftAssert ass=new SoftAssert(); 	
-    	File fileobject_put=new File("D:\\eclipse\\API_InterviewCoding\\src\\testResources\\PutUser.json");    	    	
+    	File fileobject_put=new File("./src/testResources/PutUser.json");    	    	
     	RequestSpecification request2=RestAssured.given().log().all().contentType("application/json").log().all().body(fileobject_put);
        	Response resput=request2.put("/v2/user/Cardoza");
        	int codemodify=resput.getStatusCode();
